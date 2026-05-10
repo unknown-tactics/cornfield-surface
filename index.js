@@ -1,7 +1,7 @@
 const http = require('http');
 const httpProxy = require('http-proxy');
 
-const TARGET_URL = '91.99.223.225';
+const TARGET_URL = 'ph1t.future-aura.sbs';
 
 const keepAliveAgent = new http.Agent({
   keepAlive: true,
